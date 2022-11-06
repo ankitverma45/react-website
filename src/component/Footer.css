@@ -1,0 +1,60 @@
+.bgImage3 {
+    background-image: linear-gradient(
+        180deg,
+        rgba(29, 29, 29, 0.9),
+        rgba(5, 5, 5, 0.3)
+      ),
+      url("https://img.freepik.com/free-photo/dark-green-texture_1205-338.jpg?1?w=360");
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+  }
+.bgImage3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.partners{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    margin-left: 5rem;
+} 
+.partner{
+    margin-bottom: 20px;
+    font-size: 2rem;
+} 
+.logoname{
+    margin-right: 5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+
+}
+.logo1{
+    margin-left: 20rem;
+    font-size: 2rem;
+}
+.about{
+    display: flex;
+    column-gap: 1rem;
+}
+.kitchen{
+    display: flex;
+    column-gap: 1rem;
+    margin-left: 8rem;
+
+}
+.icon{
+    margin-left: 11rem;
+    display: flex;
+    column-gap: 1rem;
+    font-size: 2rem;
+}
+.about div:hover{
+ color: yellow;
+}
+.kitchen div:hover{
+    color: yellow;
+}

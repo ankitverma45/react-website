@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Roboto:wght@300&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.bgImage {
+  background-image:linear-gradient(180deg,
+  rgba(29, 29, 29, 0.9),
+  rgba(5, 5, 5, 0.3)), url("https://assets-news.housing.com/news/wp-content/uploads/2022/01/18122248/Easy-and-simple-kitchen-design-ideas-for-your-home-FB-1200x700-compressed.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+}
+.head{
+    margin-left: 10rem;
+    margin-top: 15rem;
+}
+.head-first{
+    font-size: 4rem;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.head-second{
+    font-size: 1.5rem;
+}
+.head-three{
+    font-size: 1rem;
+}
+.container-header {
+  padding: 15px;
+  background-color: rgb(63, 63, 63);
+  position: fixed;
+  top: 0rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  z-index: 1000;
+}
+.navbar {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 1.3rem;
+  cursor: pointer;
+  font-weight: 400;
+}
+.logo {
+  font-size: 2rem;
+  color: white;
+  font-weight: 800;
+}
+.navbar button {
+  outline: none;
+  background-color: rgb(235, 188, 0);
+  color: black;
+  border: none;
+  padding: 6px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+@media (max-width:1200px){
+  .navbar {
+    font-size: 1rem;
+  }
+  .navbar button {
+    padding: 4px;
+    font-weight: 400;
+  }
+  .logo {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 800;
+  }
+  .head{
+    margin-left: 7rem;
+    margin-top: 13rem;
+}
+}
+@media (max-width:1000px){
+  .navbar {
+    display: none;
+  }
+  .head{
+    margin-left: 5rem;
+    margin-top: 10rem;
+}
+}
